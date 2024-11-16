@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+
+body{margin: 0px auto;}
+.cabeza{
+    height: 70px;
+    background-color: #A3A656;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabeza .lista ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 0px 0px 70px;
+    display: flex;
+
+}
+.cabeza .lista ul li{
+    display: inline-block;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-right: 35px;
+}
+.cabeza .lista ul li:hover{
+    color: #FFFF00;
+}
+.cabeza .pref{
+    display: flex;
+}
+.cabeza .pref .usuario{
+    display: flex;
+    align-items: center;
+}
+.cabeza .pref .usuario img{
+    width: 46px;
+    height: 47px;
+    padding-right: 12px;
+}
+.cabeza .pref .usuario h1{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 48px;
+}
+.cabeza .pref .usuario h1:hover{
+    color: #FFFF00;
+}
+.cabeza .pref .idioma{
+    display: flex;
+    align-items: center;
+}
+.cabeza .pref .idioma h1{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 12px;
+}
+.cabeza .pref .idioma h1:hover{
+    color: #FFFF00;
+}
+.cabeza .pref .idioma .flag{
+    width: 41px;
+    height: 33px;
+    padding-right: 12px;
+}
+.cabeza .pref .idioma .arrow{
+    width: 14px;
+    height: 9px;
+    padding-right: 12px;
+}
+.intro {
+    height: 652.17px;
+    position: relative;
+}
+.intro img{
+    width: 1478.4px;
+}
+.intro .Spa{
+    position: absolute; 
+    top: 25%; 
+    left: 15%; 
+    font-family: "Romanesco",serif;
+    font-weight: 400;
+    font-size:96px
+}
+.intro .desc{
+    position: absolute; 
+    top: 45%; 
+    left: 15%; 
+    font-family: "Inter",serif;
+    font-weight: 600;
+    font-size:32px 
+}
+
+.citas .datos{
+    height: 100px;
+    background-color: #F2F6F6;
+    display: flex;
+    align-items: center;
+}
+.citas .datos .rtxt{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 370px;
+    margin-right: 25px;
+}
+.citas .datos .ctxt{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.citas .datos .rvinput{
+    font-size: 16px;
+    border-radius: 10px;
+    border: 0;
+    height: 40px;
+    margin-right: 25px;
+    width: 240px;
+}
+.citas .datos .codinput{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9E9A9A;
+    border-radius: 10px;
+    border: 0;
+    height: 40px;
+    width: 190px;
+}
+.citas .espacio{
+    height: 100px;
+}
+.citas .promos{
+    display: flex;
+}
+
+.citas .promos .cabezacard{
+    background-color: #A3A656;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.citas .promos .cabezacard p{
+    margin: 0px;
+    padding: 15px 0px;
+    color: #F2F6F6;
+    font-family: "Inter",serif;
+    font-weight: 600;
+    font-size:32px
+}
+.citas .promos .info .des{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.citas .promos .info .reservar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.citas .promos .info .reservar .precio p{
+    margin: 20px 0;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 70px;
+}
+.citas .promos .info .reservar .boton input[type="button"]{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #F2F6F6;
+    border: 0px;
+    background-color: #A3A656;
+    border-radius: 35px;
+    padding: 12px 44px;
+}
+.citas .promos .info .reservar .boton input[type="button"]:hover{
+    background-color: #384001;
+}
+.citas .promos .piecard{
+   margin-right: 134px;
+   margin-left: 80.2px;
+}
+.citas .promos .relaxcard{
+    margin-right: 134px;
+}
+.citas .esp{
+    height: 50px;
+}
+.socios{
+    height: 770px;
+    background-color: #F2F6F6;
+}
+.socios .titulo{
+    text-align: center;
+    align-content: center;
+}
+.socios .titulo p{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.socios .tarjetas{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.socios .tarjetas .corona{
+    display: flex;
+    justify-content: center;
+}
+.socios .tarjetas .corona .fondo{
+    background-color: #384001;
+    height: 255px;
+    width: 255px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socios .tarjetas .corona .fondo .f2{
+    background-color: #FFFFFF;
+    height: 233px;
+    width: 233px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socios .tarjetas .tipo{
+    align-items: center;
+    text-align: center;
+}
+.socios .tarjetas .tipo p{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.socios .tarjetas .botonver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socios .tarjetas .botonver input[type="button"]{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #F2F6F6;
+    border: 0px;
+    background-color: #A3A656;
+    border-radius: 35px;
+    padding: 20px 70px;
+}
+.socios .tarjetas .botonver input[type="button"]:hover{
+    background-color: #384001;
+}
+.socios .tarjetas .lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socios .tarjetas .lista ul{
+    margin-top: 30px;
+}
+.socios .tarjetas .lista ul li{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.pie{
+    height: 97px;
+    background-color: #384001;
+    display: flex;
+    align-items: center;
+}
+.pie .listad ul{
+    padding-left: 0px;
+    list-style-type: none;
+    margin-left: 70px;
+}
+.pie .listad ul li{
+    display: inline-block;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #A3A656;
+    margin-right: 97px;
+}
+.pie .listad ul li:hover{
+    color: #FFFF00;
+}
+.pie .follow{
+    display: flex;
+    justify-content: space-between;
+}
+.pie .follow p{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #A3A656;
+    margin-right: 40px;
+}
+.pie .follow p:hover{
+    color: #FFFF00;
+}
+.pie .logos img{
+    margin-right: 40px;
+}
